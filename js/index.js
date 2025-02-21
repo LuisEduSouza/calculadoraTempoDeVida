@@ -7,10 +7,12 @@ function tempoDeVida() {
 
     if(!nomeCompleto){
         alert(`Preencha o campo do nome`);
+        return;
     }
 
     if(!dataNascimento){
         alert(`Preencha o campo da data de nascimento`);
+        return;
     }
 
     dataNascimento = new Date(dataNascimento)
